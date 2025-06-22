@@ -1,8 +1,8 @@
-AI Virtual Mouse using Hand Gesture Recognition
+🖱️ AI Virtual Mouse using Hand Gesture Recognition
 
 This project implements an AI-powered virtual mouse that allows users to control their computer's cursor and perform basic click actions using hand gestures detected via a webcam. It aims to provide an alternative input method, especially useful in scenarios where a physical mouse is inconvenient or inaccessible.
 
-Features
+✨ Features
 
 Hand Detection: Real-time recognition of a single hand in the webcam feed.
 
@@ -14,7 +14,7 @@ Smooth Movement: Incorporates a smoothing factor for more fluid cursor motion.
 
 Visual Feedback: Displays hand landmarks, finger tips, and the click detection on the live webcam feed (can be toggled off).
 
-How It Works
+💡 How It Works
 
 The AI Virtual Mouse leverages the following core libraries and concepts:
 
@@ -34,12 +34,11 @@ Numpy (numpy): Used for numerical operations, particularly for interpolating the
 
 The system continuously captures video frames, processes them with MediaPipe to find hand landmarks, calculates the screen position based on the index finger, and performs a click if the thumb and index finger are pinched close enough.
 
-Setup and Installation
+🚀 Setup and Installation
 
 To get this project up and running on your local machine, follow these steps:
 
 Clone the repository (or download the code):
-
 If you have Git installed:
 
 git clone <repository_url> # Replace with your repository URL if applicable
@@ -48,7 +47,6 @@ cd deep-fake-detection-system # Or the directory where you saved the code
 Otherwise, download the virtual_mouse.py file directly.
 
 Create a Virtual Environment (Recommended):
-
 It's good practice to use a virtual environment to manage project dependencies.
 
 python -m venv venv
@@ -76,7 +74,7 @@ pyautogui: For controlling the mouse.
 
 numpy: For numerical operations.
 
-Usage
+🎮 Usage
 
 Run the script:
 
@@ -98,7 +96,7 @@ Press the 'q' key while the webcam feed window is active.
 
 Alternatively, press Ctrl+C in your terminal.
 
-Configuration
+⚙️ Configuration
 
 You can customize the behavior of the virtual mouse by adjusting the following parameters at the beginning of the virtual_mouse.py file:
 
@@ -122,7 +120,7 @@ DRAW_LANDMARKS (default: True):
 
 Set to False if you want to hide the MediaPipe hand landmarks and connections on the webcam feed for a cleaner display.
 
-Limitations and Future Improvements
+🚧 Limitations and Future Improvements
 
 This project provides a foundational virtual mouse. Here are some areas for future enhancement:
 
@@ -140,4 +138,4 @@ Robustness to Lighting/Background: Improve performance in varying lighting condi
 
 GUI Interface: Develop a graphical user interface (using Tkinter, PyQt, or web-based frameworks) for easier configuration and feedback.
 
-Developed for Computer
+Developed for Computer Science Projects 🧑‍💻
